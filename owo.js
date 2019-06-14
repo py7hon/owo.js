@@ -1,3 +1,4 @@
+window.addEventListener("load",walk(document.body));
 var observer = new MutationObserver(function (e) {
         e
             .forEach(function (e) {
